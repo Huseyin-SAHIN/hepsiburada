@@ -1,1 +1,182 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+#navbar .container-lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#navbar ul li a {
+  color: #919191;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#navbar .navbar-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .navbar-bottom .input-group {
+  border: 2px solid #919191;
+  border-radius: 5px;
+  width: 440px;
+}
+
+#navbar .navbar-bottom .input-group .search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .navbar-bottom .input-group .search .bi-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.8rem 1rem;
+  font-size: 20px;
+  color: #919191;
+}
+
+#navbar .navbar-bottom .input-group .form-control {
+  border: 0px;
+  padding: 0;
+  color: #919191;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#navbar .navbar-bottom .input-group .input-group-text {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: #919191;
+  border-radius: 0;
+  height: 100%;
+}
+
+#navbar .navbar-bottom .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .navbar-bottom .location .bi-geo-alt {
+  font-size: 25px;
+  margin-right: 0.8rem;
+}
+
+#navbar .navbar-bottom .location h6 {
+  font-size: 14px;
+  margin: 0;
+}
+
+#navbar .navbar-bottom .location .position-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .navbar-bottom .location .position-down h6 {
+  color: #ff6000;
+}
+
+#navbar .navbar-bottom .location .position-down .bi-chevron-down {
+  margin-left: 1rem;
+  color: #ff6000;
+  font-size: 10px;
+}
+
+#navbar .navbar-bottom .dropdown-menu li h6 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #919191;
+}
+
+#navbar .navbar-bottom .dropdown-menu li p {
+  font-size: 10px;
+}
+
+#navbar .navbar-bottom .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px #919191 solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#navbar .navbar-bottom .login .bi-person {
+  font-size: 25px;
+  color: #919191;
+  margin-right: 0.8rem;
+}
+
+#navbar .navbar-bottom .login h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#navbar .navbar-bottom .login h6 {
+  font-size: 10px;
+  color: #919191;
+  margin: 0;
+}
+
+#navbar .navbar-bottom .login .bi-chevron-down {
+  margin-left: 0.5rem;
+  font-size: 20px;
+  color: #919191;
+  font-weight: bold;
+}
+
+#navbar .navbar-bottom .basket a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #919191;
+  text-decoration: none;
+}
+
+#navbar .navbar-bottom .basket a .bi-cart-fill {
+  font-size: 20px;
+  color: white;
+  margin-right: 0.8rem;
+}
+
+#navbar .navbar-bottom .basket a h5 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
