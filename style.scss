@@ -7,6 +7,8 @@ body {
 }
 
 #navbar {
+  width: 1240px;
+  margin: auto;
   .container-lg {
     display: flex;
     justify-content: end;
@@ -141,5 +143,37 @@ body {
         }
       }
     }
+  }
+}
+
+
+.navbar-colours {
+  display: flex;
+  margin-top: 1rem;
+  .colours {
+    height: 10px;
+  }
+  .colour-purple {
+    background-color: purple;
+    width: 15%;
+  }
+  .colour-blue {
+    background-color: blue;
+    width: 20%;
+  }
+  .colour-orangered {
+    background-color: orangered;
+    width: 30%;
+  }
+  .colour-covered-purple {
+    background-color: rgb(92, 0, 92);
+    width: 20%;
+  }
+  .colours-green {
+    background-color: green;
+    width: 15%;
+  }
+  .colour-purple {
+    background-color: purple;
   }
 }

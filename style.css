@@ -2,6 +2,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
 }
 
+#navbar {
+  width: 1240px;
+  margin: auto;
+}
+
 #navbar .container-lg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,5 +183,45 @@ body {
   color: white;
   font-size: 16px;
   margin: 0;
+}
+
+.navbar-colours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.navbar-colours .colours {
+  height: 10px;
+}
+
+.navbar-colours .colour-purple {
+  background-color: purple;
+  width: 15%;
+}
+
+.navbar-colours .colour-blue {
+  background-color: blue;
+  width: 20%;
+}
+
+.navbar-colours .colour-orangered {
+  background-color: orangered;
+  width: 30%;
+}
+
+.navbar-colours .colour-covered-purple {
+  background-color: #5c005c;
+  width: 20%;
+}
+
+.navbar-colours .colours-green {
+  background-color: green;
+  width: 15%;
+}
+
+.navbar-colours .colour-purple {
+  background-color: purple;
 }
 /*# sourceMappingURL=style.css.map */
