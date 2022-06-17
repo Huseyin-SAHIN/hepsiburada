@@ -1,4 +1,5 @@
 $gri: #919191;
+$acilgri: #f5f5f5;
 $turuncu: #ff6000;
 
 body {
@@ -98,7 +99,7 @@ body {
     .login {
       display: flex;
       align-items: center;
-      border: 1px $gri solid;
+      border: 2px $gri solid;
       border-radius: 5px;
       padding: 5px;
       .bi-person {
@@ -143,9 +144,29 @@ body {
         }
       }
     }
-  }
+  } 
 }
 
+.menu {
+  background-color: $acilgri;
+  .menu-adjustment{
+    width: 1240px;
+    margin: auto;
+    ul {
+      padding: 0;
+      display: flex;
+      color: #646464;
+      padding: 0 22px 0 22px;
+      li {
+        list-style: none;
+        margin: auto;
+        font-size: 14px;
+        padding: 10px 22px;
+        font-weight: bold;
+      }
+    }
+  }
+}
 
 .navbar-colours {
   display: flex;
