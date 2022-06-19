@@ -8,9 +8,9 @@ body {
 }
 
 #navbar {
-  width: 1240px;
+  width: 1200px;
   margin: auto;
-  .container-lg {
+  .top-menu {
     display: flex;
     justify-content: end;
   }
@@ -20,14 +20,19 @@ body {
         color: $gri;
         font-size: 11px;
         font-weight: bold;
+        padding-right: 0;
+        padding-left: 19px;
       }
     }
   }
 
   .navbar-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    svg {
+      margin-right: 50px;
+    }
     .input-group {
       border: 2px solid $gri;
       border-radius: 5px;
@@ -60,71 +65,81 @@ body {
         height: 100%;
       }
     }
-    .location {
-      display: flex;
-      align-items: center;
-      .bi-geo-alt {
-        font-size: 25px;
-        margin-right: 0.8rem;
-      }
-
-      h6 {
-        font-size: 14px;
-        margin: 0;
-      }
-      .position-down {
+    .dropdown {
+      .location {
         display: flex;
+        align-items: center;
+        .bi-geo-alt {
+          font-size: 25px;
+          margin-right: 0.8rem;
+        }
         h6 {
-          color: $turuncu;
+          font-size: 14px;
+          margin: 0;
+        }
+        .position-down {
+          display: flex;
+          h6 {
+            color: $turuncu;
+          }
+          .bi-chevron-down {
+            margin-left: 1rem;
+            color: $turuncu;
+            font-size: 10px;
+          }
+        }
+      }
+      .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px $gri solid;
+        border-radius: 5px;
+        padding: 5px;
+        width: 157px;
+        height: 46px;
+  
+        .bi-person {
+          font-size: 25px;
+          color: $gri;
+          margin-right: 0.8rem;
+        }
+        h5 {
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0;
+        }
+        h6 {
+          font-size: 10px;
+          color: $gri;
+          margin: 0;
         }
         .bi-chevron-down {
-          margin-left: 1rem;
-          color: $turuncu;
-          font-size: 10px;
-        }
-      }
-    }
-    .dropdown-menu {
-      li {
-        h6 {
-          font-size: 12px;
-          font-weight: bold;
+          margin-left: 0.5rem;
+          font-size: 20px;
           color: $gri;
-        }
-        p {
-          font-size: 10px;
+          font-weight: bold;
         }
       }
-    }
-    .login {
-      display: flex;
-      align-items: center;
-      border: 2px $gri solid;
-      border-radius: 5px;
-      padding: 5px;
-      .bi-person {
-        font-size: 25px;
-        color: $gri;
-        margin-right: 0.8rem;
-      }
-      h5 {
-        font-size: 14px;
-        font-weight: bold;
-        margin: 0;
-      }
-      h6 {
-        font-size: 10px;
-        color: $gri;
-        margin: 0;
-      }
-      .bi-chevron-down {
-        margin-left: 0.5rem;
-        font-size: 20px;
-        color: $gri;
-        font-weight: bold;
+      .dropdown {
+        width: 157px;
+        height: 48px;
+        .dropdown-menu {
+          li {
+            h6 {
+              font-size: 12px;
+              font-weight: bold;
+              color: $gri;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
       }
     }
     .basket {
+      width: 136px;
       a {
         display: flex;
         align-items: center;
@@ -144,12 +159,12 @@ body {
         }
       }
     }
-  } 
+  }
 }
 
 .menu {
   background-color: $acilgri;
-  .menu-adjustment{
+  .menu-adjustment {
     width: 1240px;
     margin: auto;
     ul {
