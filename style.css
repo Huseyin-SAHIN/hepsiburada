@@ -267,9 +267,22 @@ body {
 .menu .menu-adjustment ul li {
   list-style: none;
   margin: auto;
+}
+
+.menu .menu-adjustment ul li span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
   font-size: 14px;
   padding: 10px 22px;
   font-weight: bold;
+  height: 10px;
+  margin: 20px 0;
+  border-left: solid 1px #e0e0e0;
 }
 
 .photos {
@@ -277,7 +290,6 @@ body {
   background-image: url(resimler/format_webp.jpg);
   background-position: center;
   height: 540px;
-  margin: auto;
 }
 
 .photos .photos-menu ul {
@@ -301,5 +313,39 @@ body {
   padding: 7px 15px;
   border-radius: 20px;
   margin-top: 1rem;
+}
+
+.photos .photos-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photos .photos-info .special-for-you {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 4px solid white;
+  width: 1079px;
+  margin-top: 2px;
+  background-color: white;
+  border-radius: 10px;
+  height: 375px;
+}
+
+.photos .photos-info .special-for-you img {
+  border-radius: 10px;
+}
+
+.photos .photos-info .special-for-you .special-for-you-info {
+  margin: auto;
+  padding: 40px;
+}
+
+.photos .photos-info .special-for-you .special-for-you-info button {
+  margin-top: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
