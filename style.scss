@@ -98,7 +98,6 @@ body {
         padding: 5px;
         width: 157px;
         height: 46px;
-  
         .bi-person {
           font-size: 25px;
           color: $gri;
@@ -164,14 +163,44 @@ body {
 
 .menu {
   background-color: $acilgri;
+  .navbar-colours {
+    display: flex;
+    margin-top: 1rem;
+    .colours {
+      height: 10px;
+    }
+    .colour-purple {
+      background-color: purple;
+      width: 15%;
+    }
+    .colour-blue {
+      background-color: blue;
+      width: 20%;
+    }
+    .colour-orangered {
+      background-color: orangered;
+      width: 30%;
+    }
+    .colour-covered-purple {
+      background-color: rgb(92, 0, 92);
+      width: 20%;
+    }
+    .colours-green {
+      background-color: green;
+      width: 15%;
+    }
+    .colour-purple {
+      background-color: purple;
+    }
+  }
   .menu-adjustment {
     width: 1240px;
     margin: auto;
     ul {
-      padding: 0;
       display: flex;
       color: #646464;
-      padding: 0 22px 0 22px;
+      padding: 0 22px;
+      margin: 0;
       li {
         list-style: none;
         margin: auto;
@@ -183,33 +212,28 @@ body {
   }
 }
 
-.navbar-colours {
-  display: flex;
-  margin-top: 1rem;
-  .colours {
-    height: 10px;
+  .photos {
+    background-repeat: no-repeat;
+    background-image: url(resimler/format_webp.jpg);
+    background-position: center;
+    height: 540px;
+    margin: auto;
+    .photos-menu {
+      ul {
+        display: flex;
+        justify-content: center;
+        .active{
+          background-color: white;
+        }
+        li {
+          list-style: none;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0 10px;
+          padding: 7px 15px;
+          border-radius: 20px;
+          margin-top: 1rem;
+        }
+      }
+    }
   }
-  .colour-purple {
-    background-color: purple;
-    width: 15%;
-  }
-  .colour-blue {
-    background-color: blue;
-    width: 20%;
-  }
-  .colour-orangered {
-    background-color: orangered;
-    width: 30%;
-  }
-  .colour-covered-purple {
-    background-color: rgb(92, 0, 92);
-    width: 20%;
-  }
-  .colours-green {
-    background-color: green;
-    width: 15%;
-  }
-  .colour-purple {
-    background-color: purple;
-  }
-}

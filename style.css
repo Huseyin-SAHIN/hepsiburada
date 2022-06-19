@@ -210,18 +210,58 @@ body {
   background-color: #f5f5f5;
 }
 
+.menu .navbar-colours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.menu .navbar-colours .colours {
+  height: 10px;
+}
+
+.menu .navbar-colours .colour-purple {
+  background-color: purple;
+  width: 15%;
+}
+
+.menu .navbar-colours .colour-blue {
+  background-color: blue;
+  width: 20%;
+}
+
+.menu .navbar-colours .colour-orangered {
+  background-color: orangered;
+  width: 30%;
+}
+
+.menu .navbar-colours .colour-covered-purple {
+  background-color: #5c005c;
+  width: 20%;
+}
+
+.menu .navbar-colours .colours-green {
+  background-color: green;
+  width: 15%;
+}
+
+.menu .navbar-colours .colour-purple {
+  background-color: purple;
+}
+
 .menu .menu-adjustment {
   width: 1240px;
   margin: auto;
 }
 
 .menu .menu-adjustment ul {
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #646464;
-  padding: 0 22px 0 22px;
+  padding: 0 22px;
+  margin: 0;
 }
 
 .menu .menu-adjustment ul li {
@@ -232,43 +272,34 @@ body {
   font-weight: bold;
 }
 
-.navbar-colours {
+.photos {
+  background-repeat: no-repeat;
+  background-image: url(resimler/format_webp.jpg);
+  background-position: center;
+  height: 540px;
+  margin: auto;
+}
+
+.photos .photos-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photos .photos-menu ul .active {
+  background-color: white;
+}
+
+.photos .photos-menu ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 7px 15px;
+  border-radius: 20px;
   margin-top: 1rem;
-}
-
-.navbar-colours .colours {
-  height: 10px;
-}
-
-.navbar-colours .colour-purple {
-  background-color: purple;
-  width: 15%;
-}
-
-.navbar-colours .colour-blue {
-  background-color: blue;
-  width: 20%;
-}
-
-.navbar-colours .colour-orangered {
-  background-color: orangered;
-  width: 30%;
-}
-
-.navbar-colours .colour-covered-purple {
-  background-color: #5c005c;
-  width: 20%;
-}
-
-.navbar-colours .colours-green {
-  background-color: green;
-  width: 15%;
-}
-
-.navbar-colours .colour-purple {
-  background-color: purple;
 }
 /*# sourceMappingURL=style.css.map */
