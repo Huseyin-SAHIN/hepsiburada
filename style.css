@@ -1,5 +1,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -269,7 +270,7 @@ body {
   margin: auto;
 }
 
-.menu .menu-adjustment ul li span {
+.menu .menu-adjustment ul li span a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,6 +284,8 @@ body {
   height: 10px;
   margin: 20px 0;
   border-left: solid 1px #e0e0e0;
+  text-decoration: none;
+  color: #646464;
 }
 
 .photos {
@@ -305,6 +308,10 @@ body {
   background-color: white;
 }
 
+.photos .photos-menu ul .active a {
+  color: #646464;
+}
+
 .photos .photos-menu ul li {
   list-style: none;
   font-size: 14px;
@@ -313,6 +320,11 @@ body {
   padding: 7px 15px;
   border-radius: 20px;
   margin-top: 1rem;
+}
+
+.photos .photos-menu ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .photos .photos-info {
@@ -330,10 +342,10 @@ body {
   display: flex;
   border: 4px solid white;
   width: 1079px;
-  margin-top: 2px;
+  margin-top: 1px;
   background-color: white;
   border-radius: 10px;
-  height: 375px;
+  height: 376px;
 }
 
 .photos .photos-info .special-for-you img {
@@ -347,5 +359,10 @@ body {
 
 .photos .photos-info .special-for-you .special-for-you-info button {
   margin-top: 4rem;
+  color: white;
+  background-color: #ff6000;
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
