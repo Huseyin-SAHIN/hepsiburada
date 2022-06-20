@@ -5,6 +5,7 @@ $turuncu: #ff6000;
 body {
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -206,15 +207,19 @@ body {
         margin: auto;
 
         span {
-          display: flex;
-          align-items: center;
-          text-align: center;
-          font-size: 14px;
-          padding: 10px 22px;
-          font-weight: bold;
-          height: 10px;
-          margin: 20px 0;
-          border-left: solid 1px rgb(224, 224, 224);
+          a {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px 22px;
+            font-weight: bold;
+            height: 10px;
+            margin: 20px 0;
+            border-left: solid 1px rgb(224, 224, 224);
+            text-decoration: none;
+            color: rgb(100, 100, 100);
+          }
         }
       }
     }
@@ -232,6 +237,9 @@ body {
       justify-content: center;
       .active {
         background-color: white;
+        a {
+          color: rgb(100, 100, 100);
+        }
       }
       li {
         list-style: none;
@@ -241,6 +249,10 @@ body {
         padding: 7px 15px;
         border-radius: 20px;
         margin-top: 1rem;
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -251,18 +263,23 @@ body {
       display: flex;
       border: 4px solid white;
       width: 1079px;
-      margin-top: 2px;
+      margin-top: 1px;
       background-color: white;
       border-radius: 10px;
-      height: 375px;
+      height: 376px;
       img {
         border-radius: 10px;
       }
-      .special-for-you-info{
+      .special-for-you-info {
         margin: auto;
-        padding:40px;
-        button{
+        padding: 40px;
+        button {
           margin-top: 4rem;
+          color: white;
+          background-color: #ff6000;
+          border-radius: 20px;
+          padding-right: 30px;
+          padding-left: 30px;
         }
       }
     }
