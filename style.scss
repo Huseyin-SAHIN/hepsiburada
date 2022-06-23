@@ -324,6 +324,25 @@ body {
       height: 375px;
       border: 1px solid rgb(219, 219, 219);
       border-radius: 10px;
+      .add-product {
+        font-weight: bold;
+        color: #ff6000;
+        display: none;
+        background-color: #ff620011;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 0.8rem 2rem;
+        margin-top: 2rem;
+      }
+      :hover .product-price {
+        display: none;
+      }
+      :hover {
+        .add-product {
+          display: block;
+        }
+      }
       h5 {
         font-size: 12px;
       }
@@ -331,11 +350,11 @@ body {
         width: 100%;
         margin-top: 1rem;
       }
-      p {
+      .product-price {
         font-size: 22px;
         font-weight: bold;
         color: #ff6000;
-        margin: 0;
+        padding: 0.8rem 2rem;
         margin-top: 2rem;
         span {
           font-size: 14px;
@@ -344,7 +363,7 @@ body {
       }
       .product-shape {
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 2rem 1.6rem;
       }
     }
   }
