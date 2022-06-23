@@ -401,8 +401,8 @@ body {
 .product .products {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (20%)[10];
-      grid-template-columns: repeat(10, 20%);
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
 }
 
 .product .products .product-design-img {
@@ -447,5 +447,57 @@ body {
 .product .products .product-design .product-shape {
   text-align: center;
   padding: 2rem 1rem;
+}
+
+.product .product-general-title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  margin-top: 4rem;
+}
+
+.product .product-general-title .product-general-paragraph {
+  padding: 1rem;
+  font-size: 17px;
+}
+
+.product .product-general-title .product-general-paragraph span {
+  font-weight: bold;
+}
+
+.product .brand {
+  width: 1200px;
+  margin-top: 6rem;
+}
+
+.product .brand .brand-title {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.product .brand .brands-style {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  gap: 1.5rem;
+}
+
+.product .brand .brands-style .brands {
+  margin-bottom: 1rem;
+}
+
+.product .brand .brands-style .brands img {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product .brand .brands-style .brands h5 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
