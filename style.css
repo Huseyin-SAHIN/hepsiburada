@@ -428,10 +428,15 @@ body {
   display: none;
   background-color: #ff620011;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   border-radius: 10px;
   padding: 0.8rem 2rem;
   margin-top: 2rem;
+  border: 0;
+}
+
+.product .products .product-design .add-product :hover {
+  background-color: #ff620023;
 }
 
 .product .products .product-design :hover .product-price {
