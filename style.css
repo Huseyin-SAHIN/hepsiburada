@@ -295,7 +295,19 @@ body {
   height: 540px;
 }
 
-.photos .photos-menu ul {
+.photos .deneme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.photos .deneme .photos-menu {
+  min-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,15 +316,21 @@ body {
           justify-content: center;
 }
 
-.photos .photos-menu ul .active {
+.photos .deneme .photos-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photos .deneme .photos-menu ul .active {
   background-color: white;
 }
 
-.photos .photos-menu ul .active a {
+.photos .deneme .photos-menu ul .active a {
   color: #646464;
 }
 
-.photos .photos-menu ul li {
+.photos .deneme .photos-menu ul li {
   list-style: none;
   font-size: 14px;
   font-weight: bold;
@@ -322,7 +340,7 @@ body {
   margin-top: 1rem;
 }
 
-.photos .photos-menu ul li a {
+.photos .deneme .photos-menu ul li a {
   color: white;
   text-decoration: none;
 }
@@ -387,13 +405,17 @@ body {
   margin-right: 0.5rem;
 }
 
-.product .product-title span {
-  font-size: 14px;
+.product .product-title a {
+  text-decoration: none;
+}
+
+.product .product-title a span {
+  font-size: 15px;
   font-weight: bold;
   color: #ff6000;
 }
 
-.product .product-title .bi-chevron-right {
+.product .product-title a .bi-chevron-right {
   font-size: 14px;
   color: #ff6000;
 }
@@ -435,7 +457,7 @@ body {
   border: 0;
 }
 
-.product .products .product-design .add-product :hover {
+.product .products .product-design .add-product:hover {
   background-color: #ff620023;
 }
 

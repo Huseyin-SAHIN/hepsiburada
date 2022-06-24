@@ -231,27 +231,36 @@ body {
   background-image: url(resimler/format_webp.jpg);
   background-position: center;
   height: 540px;
-  .photos-menu {
-    ul {
+  .deneme {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    .photos-menu {
+      min-width: 1200px;
       display: flex;
       justify-content: center;
-      .active {
-        background-color: white;
-        a {
-          color: rgb(100, 100, 100);
+      ul {
+        display: flex;
+        .active {
+          background-color: white;
+
+          a {
+            color: rgb(100, 100, 100);
+          }
         }
-      }
-      li {
-        list-style: none;
-        font-size: 14px;
-        font-weight: bold;
-        margin: 0 10px;
-        padding: 7px 15px;
-        border-radius: 20px;
-        margin-top: 1rem;
-        a {
-          color: white;
-          text-decoration: none;
+        li {
+          list-style: none;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0 10px;
+          padding: 7px 15px;
+          border-radius: 20px;
+          margin-top: 1rem;
+          a {
+            color: white;
+            text-decoration: none;
+          }
         }
       }
     }
@@ -298,14 +307,17 @@ body {
       font-weight: bold;
       margin-right: 0.5rem;
     }
-    span {
-      font-size: 14px;
-      font-weight: bold;
-      color: #ff6000;
-    }
-    .bi-chevron-right {
-      font-size: 14px;
-      color: #ff6000;
+    a {
+      text-decoration: none;
+      span {
+        font-size: 15px;
+        font-weight: bold;
+        color: #ff6000;
+      }
+      .bi-chevron-right {
+        font-size: 14px;
+        color: #ff6000;
+      }
     }
   }
   .products {
@@ -335,9 +347,9 @@ body {
         padding: 0.8rem 2rem;
         margin-top: 2rem;
         border: 0;
-        :hover{
-          background-color: #ff620023;
-        }
+      }
+      .add-product:hover {
+        background-color: #ff620023;
       }
       :hover .product-price {
         display: none;
