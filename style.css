@@ -539,6 +539,7 @@ body {
 }
 
 .product .brand .brands-style .brands {
+  text-decoration: none;
   margin-bottom: 1rem;
 }
 
@@ -553,5 +554,6 @@ body {
   font-size: 14px;
   font-weight: bold;
   margin-top: 0.5rem;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
