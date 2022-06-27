@@ -434,31 +434,36 @@ body {
       font-size: 30px;
       font-weight: bold;
     }
-    .attention-product {
-      width: 171px;
-      height: 171px;
-      margin: 10px;
-      .attention-product-img {
+    .attention-products-style {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      .attention-product {
         width: 171px;
         height: 171px;
-        border-radius: 10px;
-        border: 1px solid #e0e0e0;
-        padding: 0.5rem;
-      }
-      img {
-        height: 100%;
-      }
-      div {
-        padding: 10px;
-        p {
-          font-size: 12px;
-          font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+        margin: 10px;
+        .attention-product-img {
+          width: 171px;
+          height: 171px;
+          border-radius: 10px;
+          border: 1px solid #e0e0e0;
+          padding: 0.5rem;
         }
-        h6 {
-          font-weight: bold;
-          span {
+        img {
+          height: 100%;
+        }
+        div {
+          padding: 10px;
+          p {
             font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
+              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+              sans-serif !important;
+          }
+          h6 {
+            font-weight: bold;
+            span {
+              font-size: 12px;
+            }
           }
         }
       }
