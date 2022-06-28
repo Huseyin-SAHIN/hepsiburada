@@ -208,6 +208,8 @@ body {
 }
 
 .menu {
+  width: 1200px;
+  margin: auto;
   background-color: #f5f5f5;
 }
 
@@ -289,6 +291,8 @@ body {
 }
 
 .photos {
+  width: 1200px;
+  margin: auto;
   background-repeat: no-repeat;
   background-image: url(resimler/format_webp.jpg);
   background-position: center;
