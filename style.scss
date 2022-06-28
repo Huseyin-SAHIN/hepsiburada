@@ -163,6 +163,7 @@ body {
 }
 
 .menu {
+  min-width: 1200px;
   background-color: $acilgri;
   .navbar-colours {
     display: flex;
@@ -227,6 +228,7 @@ body {
 }
 
 .photos {
+  min-width: 1200px;
   background-repeat: no-repeat;
   background-image: url(resimler/format_webp.jpg);
   background-position: center;
