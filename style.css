@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   overflow-x: hidden;
 }
 
@@ -7,16 +7,10 @@ body {
   width: 1200px;
   margin: auto;
 }
-
 #navbar .top-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
 }
-
 #navbar ul li a {
   color: #919191;
   font-size: 11px;
@@ -24,51 +18,31 @@ body {
   padding-right: 0;
   padding-left: 19px;
 }
-
 #navbar .navbar-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #navbar .navbar-bottom svg {
   margin-right: 50px;
 }
-
 #navbar .navbar-bottom .input-group {
   border: 2px solid #919191;
   border-radius: 5px;
   width: 440px;
 }
-
 #navbar .navbar-bottom .input-group .search {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #navbar .navbar-bottom .input-group .search .bi-search {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0.8rem 1rem;
   font-size: 20px;
   color: #919191;
 }
-
 #navbar .navbar-bottom .input-group .form-control {
   border: 0px;
   padding: 0;
@@ -76,7 +50,6 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-
 #navbar .navbar-bottom .input-group .input-group-text {
   font-weight: bold;
   font-size: 15px;
@@ -85,122 +58,88 @@ body {
   border-radius: 0;
   height: 100%;
 }
-
 #navbar .navbar-bottom .dropdown .location {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 #navbar .navbar-bottom .dropdown .location .bi-geo-alt {
   font-size: 25px;
   margin-right: 0.8rem;
 }
-
 #navbar .navbar-bottom .dropdown .location h6 {
   font-size: 14px;
   margin: 0;
 }
-
 #navbar .navbar-bottom .dropdown .location .position-down {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #navbar .navbar-bottom .dropdown .location .position-down h6 {
   color: #ff6000;
 }
-
 #navbar .navbar-bottom .dropdown .location .position-down .bi-chevron-down {
   margin-left: 1rem;
   color: #ff6000;
   font-size: 10px;
 }
-
 #navbar .navbar-bottom .dropdown .login {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border: 2px #919191 solid;
   border-radius: 5px;
   padding: 5px;
   width: 157px;
   height: 46px;
 }
-
 #navbar .navbar-bottom .dropdown .login .bi-person {
   font-size: 25px;
   color: #919191;
   margin-right: 0.8rem;
 }
-
 #navbar .navbar-bottom .dropdown .login h5 {
   font-size: 14px;
   font-weight: bold;
   margin: 0;
 }
-
 #navbar .navbar-bottom .dropdown .login h6 {
   font-size: 10px;
   color: #919191;
   margin: 0;
 }
-
 #navbar .navbar-bottom .dropdown .login .bi-chevron-down {
   margin-left: 0.5rem;
   font-size: 20px;
   color: #919191;
   font-weight: bold;
 }
-
 #navbar .navbar-bottom .dropdown .dropdown {
   width: 157px;
   height: 48px;
 }
-
 #navbar .navbar-bottom .dropdown .dropdown .dropdown-menu li h6 {
   font-size: 12px;
   font-weight: bold;
   color: #919191;
 }
-
 #navbar .navbar-bottom .dropdown .dropdown .dropdown-menu li p {
   font-size: 10px;
 }
-
 #navbar .navbar-bottom .basket {
   width: 136px;
 }
-
 #navbar .navbar-bottom .basket a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   background-color: #919191;
   text-decoration: none;
 }
-
 #navbar .navbar-bottom .basket a .bi-cart-fill {
   font-size: 20px;
   color: white;
   margin-right: 0.8rem;
 }
-
 #navbar .navbar-bottom .basket a h5 {
   color: white;
   font-size: 16px;
@@ -211,82 +150,62 @@ body {
   min-width: 1200px;
   background-color: #f5f5f5;
 }
-
 .menu .navbar-colours {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
 }
-
 .menu .navbar-colours .colours {
   height: 10px;
 }
-
 .menu .navbar-colours .colour-purple {
   background-color: purple;
   width: 15%;
 }
-
 .menu .navbar-colours .colour-blue {
   background-color: blue;
   width: 20%;
 }
-
 .menu .navbar-colours .colour-orangered {
   background-color: orangered;
   width: 30%;
 }
-
 .menu .navbar-colours .colour-covered-purple {
-  background-color: #5c005c;
+  background-color: rgb(92, 0, 92);
   width: 20%;
 }
-
 .menu .navbar-colours .colours-green {
   background-color: green;
   width: 15%;
 }
-
 .menu .navbar-colours .colour-purple {
   background-color: purple;
 }
-
 .menu .menu-adjustment {
   width: 1240px;
   margin: auto;
 }
-
 .menu .menu-adjustment ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #646464;
   padding: 0 22px;
   margin: 0;
 }
-
 .menu .menu-adjustment ul li {
   list-style: none;
   margin: auto;
 }
-
 .menu .menu-adjustment ul li span a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   font-size: 14px;
   padding: 10px 22px;
   font-weight: bold;
   height: 10px;
   margin: 20px 0;
-  border-left: solid 1px #e0e0e0;
+  border-left: solid 1px rgb(224, 224, 224);
   text-decoration: none;
-  color: #646464;
+  color: rgb(100, 100, 100);
 }
 
 .photos {
@@ -296,42 +215,26 @@ body {
   background-position: center;
   height: 540px;
 }
-
 .photos .deneme {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   display: flex;
   justify-content: center;
 }
-
 .photos .deneme .photos-menu {
   min-width: 1200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .photos .deneme .photos-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .photos .deneme .photos-menu ul .active {
   background-color: white;
 }
-
 .photos .deneme .photos-menu ul .active a {
-  color: #646464;
+  color: rgb(100, 100, 100);
 }
-
 .photos .deneme .photos-menu ul li {
   list-style: none;
   font-size: 14px;
@@ -341,24 +244,15 @@ body {
   border-radius: 20px;
   margin-top: 1rem;
 }
-
 .photos .deneme .photos-menu ul li a {
   color: white;
   text-decoration: none;
 }
-
 .photos .photos-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .photos .photos-info .special-for-you {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 4px solid white;
   width: 1080px;
@@ -366,16 +260,13 @@ body {
   border-radius: 10px;
   height: 380px;
 }
-
 .photos .photos-info .special-for-you img {
   border-radius: 10px;
 }
-
 .photos .photos-info .special-for-you .special-for-you-info {
   margin: auto;
   padding: 40px;
 }
-
 .photos .photos-info .special-for-you .special-for-you-info button {
   margin-top: 4rem;
   color: white;
@@ -389,73 +280,55 @@ body {
   width: 1200px;
   margin: auto;
 }
-
 .product .product-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .product .product-title h2 {
   font-size: 30px;
   font-weight: bold;
   margin-right: 0.5rem;
 }
-
 .product .product-title a {
   text-decoration: none;
 }
-
 .product .product-title a span {
   font-size: 15px;
   font-weight: bold;
   color: #ff6000;
 }
-
 .product .product-title a .bi-chevron-right {
   font-size: 14px;
   color: #ff6000;
 }
-
 .product .products {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
-
 .product .products .product-design-img {
   width: 225px;
   height: 375px;
 }
-
 .product .products .product-design-img img {
   width: 100%;
   margin: 0;
 }
-
 .product .products .product-design {
   width: 225px;
   height: 375px;
-  border: 1px solid #dbdbdb;
+  border: 1px solid rgb(219, 219, 219);
   border-radius: 10px;
 }
-
 .product .products .product-design:hover {
-  -webkit-box-shadow: 0px 0px 10px #d8d8d8;
-          box-shadow: 0px 0px 10px #d8d8d8;
+  box-shadow: 0px 0px 10px rgb(216, 216, 216);
 }
-
 .product .products .product-design .add-product {
   font-weight: bold;
   color: #ff6000;
   display: none;
-  background-color: #ff620011;
+  background-color: rgba(255, 98, 0, 0.0666666667);
   font-weight: bold;
   font-size: 17px;
   border-radius: 10px;
@@ -463,28 +336,22 @@ body {
   margin-top: 2rem;
   border: 0;
 }
-
 .product .products .product-design .add-product:hover {
-  background-color: #ff620023;
+  background-color: rgba(255, 98, 0, 0.137254902);
 }
-
 .product .products .product-design :hover .product-price {
   display: none;
 }
-
 .product .products .product-design :hover .add-product {
   display: block;
 }
-
 .product .products .product-design h5 {
   font-size: 12px;
 }
-
 .product .products .product-design img {
   width: 100%;
   margin-top: 1rem;
 }
-
 .product .products .product-design .product-price {
   font-size: 22px;
   font-weight: bold;
@@ -492,65 +359,50 @@ body {
   padding: 0.8rem 2rem;
   margin-top: 2rem;
 }
-
 .product .products .product-design .product-price span {
   font-size: 14px;
   margin-left: 5px;
 }
-
 .product .products .product-design .product-shape {
   text-align: center;
   padding: 2rem 1.6rem;
   width: 225px;
   height: 375px;
 }
-
 .product .product-general-title {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 4rem;
 }
-
 .product .product-general-title .product-general-paragraph {
   padding: 1rem;
   font-size: 17px;
 }
-
 .product .product-general-title .product-general-paragraph span {
   font-weight: bold;
 }
-
 .product .brand {
   width: 1200px;
   margin-top: 6rem;
 }
-
 .product .brand .brand-title {
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
-
 .product .brand .brands-style {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   gap: 1.5rem;
 }
-
 .product .brand .brands-style .brands {
   text-decoration: none;
   margin-bottom: 1rem;
 }
-
 .product .brand .brands-style .brands img {
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   width: 100%;
 }
-
 .product .brand .brands-style .brands h5 {
   text-align: center;
   font-size: 14px;
@@ -558,25 +410,18 @@ body {
   margin-top: 0.5rem;
   color: black;
 }
-
 .product .attention-products .attention-product-title {
   font-size: 30px;
   font-weight: bold;
 }
-
 .product .attention-products .attention-products-style {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
-
 .product .attention-products .attention-products-style .attention-product {
   width: 171px;
-  height: 171px;
   margin: 10px;
 }
-
 .product .attention-products .attention-products-style .attention-product .attention-product-img {
   width: 171px;
   height: 171px;
@@ -584,25 +429,50 @@ body {
   border: 1px solid #e0e0e0;
   padding: 0.5rem;
 }
-
 .product .attention-products .attention-products-style .attention-product img {
   height: 100%;
 }
-
 .product .attention-products .attention-products-style .attention-product div {
   padding: 10px;
 }
-
 .product .attention-products .attention-products-style .attention-product div p {
   font-size: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
 }
-
 .product .attention-products .attention-products-style .attention-product div h6 {
   font-weight: bold;
 }
-
 .product .attention-products .attention-products-style .attention-product div h6 span {
   font-size: 12px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.footer-global {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.footer-global .footer-upper {
+  width: 1200px;
+}
+.footer-global .footer-upper .footer-head .footer-head-links ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer-global .footer-upper .footer-head .footer-head-links ul li {
+  list-style: none;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 14px;
+  color: #919191;
+}
+.footer-global .footer-upper .footer-head .footer-head-links ul li:hover {
+  color: black;
+}
+.footer-global .footer-upper .footer-head .footer-head-links ul .brace {
+  font-size: 16px;
+  color: #3b3b3b;
+}
+.footer-global .footer-upper .footer-head .footer-head-links ul .brace:hover {
+  color: #3b3b3b;
+}/*# sourceMappingURL=style.css.map */
