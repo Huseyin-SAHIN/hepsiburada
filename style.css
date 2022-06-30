@@ -475,4 +475,28 @@ body {
 }
 .footer-global .footer-upper .footer-head .footer-head-links ul .brace:hover {
   color: #3b3b3b;
+}
+.footer-global .footer-upper .footer-top .lg-1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+.footer-global .footer-upper .footer-top .lg-1 a {
+  text-decoration: none;
+}
+.footer-global .footer-upper .footer-top .lg-1 a .footer-title {
+  color: #484848;
+  font-weight: bold;
+}
+.footer-global .footer-upper .footer-top .lg-1 a .iconContent {
+  border-right: solid 1px #f5f5f5;
+}
+.footer-global .footer-upper .footer-top .lg-1 a .iconContent svg {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.footer-global .footer-upper .footer-top .lg-1 a .content {
+  color: black;
+  font-size: 14px;
+  display: block;
+  padding: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

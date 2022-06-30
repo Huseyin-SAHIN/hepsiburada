@@ -561,8 +561,10 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+
   .footer-upper {
     width: 1200px;
+
     .footer-head {
       .hepsiburada-logo-container {}
 
@@ -591,6 +593,36 @@ body {
             &:hover {
               color: #3b3b3b;
             }
+          }
+        }
+      }
+    }
+
+    .footer-top {
+      .lg-1 {
+        text-align: center;
+        margin-top: 5rem;
+        a {
+          text-decoration: none;
+
+          .footer-title {
+            color: #484848;
+            font-weight: bold;
+          }
+
+          .iconContent {
+            border-right: solid 1px $acilgri;
+            svg {
+              margin-top: 2rem;
+              margin-bottom: 1rem;
+            }
+          }
+
+          .content {
+            color: black;
+            font-size: 14px;
+            display: block;
+            padding: 1.5rem;
           }
         }
       }
