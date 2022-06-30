@@ -450,9 +450,10 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  width: 1200px;
 }
 .footer-global .footer-upper {
-  width: 1200px;
+  width: 100%;
 }
 .footer-global .footer-upper .footer-head .footer-head-links ul {
   display: flex;
