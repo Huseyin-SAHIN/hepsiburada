@@ -517,8 +517,9 @@ body {
     .attention-products-style {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-
-      .attention-product {
+      a{
+        text-decoration: none;
+        .attention-product {
         margin: 10px;
 
         .attention-product-img {
@@ -537,6 +538,7 @@ body {
           padding: 10px;
 
           p {
+            color: black;
             font-size: 12px;
             font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
@@ -544,6 +546,7 @@ body {
           }
 
           h6 {
+            color: black;
             font-weight: bold;
 
             span {
@@ -551,6 +554,7 @@ body {
             }
           }
         }
+      }
       }
     }
   }
