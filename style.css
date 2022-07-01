@@ -418,35 +418,37 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
-.product .attention-products .attention-products-style a {
+.product .attention-products .attention-products-style .attention-product {
+  margin-top: 10px;
+  width: 171px;
+}
+.product .attention-products .attention-products-style .attention-product a {
   text-decoration: none;
 }
-.product .attention-products .attention-products-style a .attention-product {
-  margin: 10px;
-}
-.product .attention-products .attention-products-style a .attention-product .attention-product-img {
+.product .attention-products .attention-products-style .attention-product a .attention-product-img {
   width: 171px;
   height: 171px;
   border-radius: 10px;
   border: 1px solid #e0e0e0;
   padding: 0.5rem;
 }
-.product .attention-products .attention-products-style a .attention-product img {
+.product .attention-products .attention-products-style .attention-product a img {
   height: 100%;
 }
-.product .attention-products .attention-products-style a .attention-product div {
+.product .attention-products .attention-products-style .attention-product a div {
   padding: 10px;
 }
-.product .attention-products .attention-products-style a .attention-product div p {
+.product .attention-products .attention-products-style .attention-product a div p {
+  text-align: center;
   color: black;
   font-size: 12px;
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
 }
-.product .attention-products .attention-products-style a .attention-product div h6 {
+.product .attention-products .attention-products-style .attention-product a div h6 {
   color: black;
   font-weight: bold;
 }
-.product .attention-products .attention-products-style a .attention-product div h6 span {
+.product .attention-products .attention-products-style .attention-product a div h6 span {
   font-size: 12px;
 }
 

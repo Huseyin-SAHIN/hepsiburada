@@ -517,44 +517,46 @@ body {
     .attention-products-style {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      a{
-        text-decoration: none;
-        .attention-product {
-        margin: 10px;
 
-        .attention-product-img {
-          width: 171px;
-          height: 171px;
-          border-radius: 10px;
-          border: 1px solid #e0e0e0;
-          padding: 0.5rem;
-        }
-
-        img {
-          height: 100%;
-        }
-
-        div {
-          padding: 10px;
-
-          p {
-            color: black;
-            font-size: 12px;
-            font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif !important;
+      .attention-product {
+        margin-top: 10px;
+        width: 171px;
+        a {
+          text-decoration: none;
+          .attention-product-img {
+            width: 171px;
+            height: 171px;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            padding: 0.5rem;
           }
 
-          h6 {
-            color: black;
-            font-weight: bold;
+          img {
+            height: 100%;
+          }
 
-            span {
+          div {
+            padding: 10px;
+
+            p {
+              text-align: center;
+              color: black;
               font-size: 12px;
+              font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
+                Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+                sans-serif !important;
+            }
+
+            h6 {
+              color: black;
+              font-weight: bold;
+
+              span {
+                font-size: 12px;
+              }
             }
           }
         }
-      }
       }
     }
   }
@@ -632,13 +634,16 @@ body {
         }
       }
     }
-    .footer-seo-view{
-      .footre-br{
+
+    .footer-seo-view {
+      .footre-br {
         border: 1px solid $acilgri;
       }
-      .seo-portal{
+
+      .seo-portal {
         padding: 1rem;
-        p{
+
+        p {
           font-family: Helvetica;
           font-size: 12px;
         }
