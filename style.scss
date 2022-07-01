@@ -519,7 +519,6 @@ body {
       grid-template-columns: repeat(6, 1fr);
 
       .attention-product {
-        width: 171px;
         margin: 10px;
 
         .attention-product-img {
@@ -562,8 +561,11 @@ body {
   justify-content: center;
   margin-top: 5rem;
   width: 1200px;
+  margin: auto;
+
   .footer-upper {
     width: 100%;
+
     .footer-head {
       .footer-head-links {
         ul {
@@ -623,6 +625,18 @@ body {
             display: block;
             padding: 1.5rem;
           }
+        }
+      }
+    }
+    .footer-seo-view{
+      .footre-br{
+        border: 1px solid $acilgri;
+      }
+      .seo-portal{
+        padding: 1rem;
+        p{
+          font-family: Helvetica;
+          font-size: 12px;
         }
       }
     }
