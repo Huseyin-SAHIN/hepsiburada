@@ -563,8 +563,6 @@ body {
 }
 
 .footer-global {
-  display: flex;
-  justify-content: center;
   padding-top: 5rem;
   width: 1200px;
   margin: auto;
@@ -646,6 +644,24 @@ body {
         p {
           font-family: Helvetica;
           font-size: 12px;
+        }
+      }
+    }
+  }
+  .footer-middle{
+    .footer-middle-left{
+      section{
+        h5{
+          
+        }
+        ul{
+          li{
+            list-style: none;
+            a{
+              text-decoration: none;
+              color: black;
+            }
+          }
         }
       }
     }

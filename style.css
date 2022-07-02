@@ -453,8 +453,6 @@ body {
 }
 
 .footer-global {
-  display: flex;
-  justify-content: center;
   padding-top: 5rem;
   width: 1200px;
   margin: auto;
@@ -517,4 +515,11 @@ body {
 .footer-global .footer-upper .footer-seo-view .seo-portal p {
   font-family: Helvetica;
   font-size: 12px;
+}
+.footer-global .footer-middle .footer-middle-left section ul li {
+  list-style: none;
+}
+.footer-global .footer-middle .footer-middle-left section ul li a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
