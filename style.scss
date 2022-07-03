@@ -521,8 +521,10 @@ body {
       .attention-product {
         margin-top: 10px;
         width: 171px;
+
         a {
           text-decoration: none;
+
           .attention-product-img {
             width: 171px;
             height: 171px;
@@ -648,20 +650,75 @@ body {
       }
     }
   }
-  .footer-middle{
-    .footer-middle-left{
+
+  .footer-middle {
+    display: flex;
+
+    .footer-middle-left {
       display: flex;
-      section{
-        h5{
-          
+
+      section {
+        h5 {
+          font-size: 14px;
+          line-height: 1.2;
         }
-        ul{
-          li{
+
+        ul {
+          li {
             list-style: none;
-            a{
+
+            a {
               text-decoration: none;
-              color: black;
+              color: rgba(72, 72, 72, 0.6);
+              font-size: 12px;
+              font-weight: 700;
             }
+          }
+        }
+      }
+    }
+
+    .footer-middle-right {
+      section {
+        h5 {
+          font-size: 14px;
+          line-height: 1.2;
+        }
+        ul {
+          li {
+            list-style: none;
+            a {
+              text-decoration: none;
+              color: rgba(72, 72, 72, 0.6);
+              font-size: 12px;
+              font-weight: 700;
+            }
+          }
+        }
+
+      }
+
+      section {
+        .solution-center {
+          a{
+            text-decoration: none;
+          }
+          .solution-title {}
+
+          a {
+            color: rgba(72, 72, 72, 0.6);
+            font-size: 12px;
+            font-weight: 700;
+          }
+
+          .solution-or {}
+
+          .solution-call-text {}
+
+          .solution-center-phone {}
+
+          .whatsapp-ft {
+            span {}
           }
         }
       }
