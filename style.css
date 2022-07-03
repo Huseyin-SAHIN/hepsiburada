@@ -516,6 +516,9 @@ body {
   font-family: Helvetica;
   font-size: 12px;
 }
+.footer-global .footer-middle .footer-middle-left {
+  display: flex;
+}
 .footer-global .footer-middle .footer-middle-left section ul li {
   list-style: none;
 }
