@@ -551,8 +551,31 @@ body {
 .footer-global .footer-middle .footer-middle-right section .solution-center a {
   text-decoration: none;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center a {
+.footer-global .footer-middle .footer-middle-right section .solution-center .solution-title {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer-global .footer-middle .footer-middle-right section .solution-center .solution-link {
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
+}
+.footer-global .footer-middle .footer-middle-right section .solution-center .solution-or {
+  text-align: center;
+}
+.footer-global .footer-middle .footer-middle-right section .solution-center .solution-call-text {
+  text-align: center;
+  font-size: 13px;
+  color: #484848;
+}
+.footer-global .footer-middle .footer-middle-right section .solution-center .solution-center-phone {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #484848;
+}
+.footer-global .footer-middle .footer-middle-right section .solution-center .whatsapp-ft span {
+  color: rgba(72, 72, 72, 0.6);
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
