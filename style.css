@@ -454,7 +454,7 @@ body {
 
 .footer-global {
   padding-top: 5rem;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 .footer-global .footer-upper {
@@ -521,6 +521,10 @@ body {
 }
 .footer-global .footer-middle .footer-middle-left {
   display: flex;
+  width: 59.46844%;
+}
+.footer-global .footer-middle .footer-middle-left section {
+  width: 33.33333%;
 }
 .footer-global .footer-middle .footer-middle-left section h5 {
   font-size: 14px;
@@ -535,9 +539,18 @@ body {
   font-size: 12px;
   font-weight: 700;
 }
+.footer-global .footer-middle .footer-middle-right {
+  width: 39.20266%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-global .footer-middle .footer-middle-right section {
+  width: 50%;
+}
 .footer-global .footer-middle .footer-middle-right section h5 {
   font-size: 14px;
   line-height: 1.2;
+  font-weight: bold;
 }
 .footer-global .footer-middle .footer-middle-right section ul li {
   list-style: none;
@@ -548,34 +561,45 @@ body {
   font-size: 12px;
   font-weight: 700;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center a {
+.footer-global .footer-middle .footer-middle-right .mobile-apps {
+  width: 190px;
+  text-align: center;
+}
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center a {
   text-decoration: none;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .solution-title {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-title {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
+  padding: 0 1rem;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .solution-link {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-link {
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .solution-or {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or span {
   text-align: center;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .solution-call-text {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-call-text {
   text-align: center;
   font-size: 13px;
-  color: #484848;
+  color: #919191;
+  border: 1px solid #919191;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 5px;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .solution-center-phone {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-center-phone {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
   color: #484848;
 }
-.footer-global .footer-middle .footer-middle-right section .solution-center .whatsapp-ft span {
+.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft span {
   color: rgba(72, 72, 72, 0.6);
   font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

@@ -566,7 +566,7 @@ body {
 
 .footer-global {
   padding-top: 5rem;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 
   .footer-upper {
@@ -656,8 +656,11 @@ body {
 
     .footer-middle-left {
       display: flex;
+      width: 59.46844%;
 
       section {
+        width: 33.33333%;
+
         h5 {
           font-size: 14px;
           line-height: 1.2;
@@ -679,10 +682,17 @@ body {
     }
 
     .footer-middle-right {
+      width: 39.20266%;
+      display: flex;
+      justify-content: space-between;
+
       section {
+        width: 50%;
+
         h5 {
           font-size: 14px;
           line-height: 1.2;
+          font-weight: bold;
         }
 
         ul {
@@ -700,7 +710,10 @@ body {
 
       }
 
-      section {
+      .mobile-apps {
+        width: 190px;
+        text-align: center;
+
         .solution-center {
           a {
             text-decoration: none;
@@ -710,6 +723,7 @@ body {
             font-size: 15px;
             font-weight: 700;
             text-align: center;
+            padding: 0 1rem;
           }
 
           .solution-link {
@@ -719,13 +733,22 @@ body {
           }
 
           .solution-or {
-            text-align: center;
+            span {
+              text-align: center;
+            }
           }
 
           .solution-call-text {
             text-align: center;
             font-size: 13px;
-            color: #484848;
+            color: #919191;
+            ;
+            border: 1px solid #919191;
+            font-size: 12px;
+            font-weight: 700;
+            width: 100%;
+            padding: 6px 0;
+            border-radius: 5px;
           }
 
           .solution-center-phone {
