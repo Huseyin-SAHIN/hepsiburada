@@ -18,6 +18,8 @@ body {
   }
 
   ul {
+    padding: 0;
+
     li {
       a {
         color: $gri;
@@ -283,6 +285,7 @@ body {
       justify-content: center;
 
       ul {
+        padding: 0;
         display: flex;
 
         .active {
@@ -517,6 +520,7 @@ body {
     .attention-products-style {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
+      gap: 1.5rem;
 
       .attention-product {
         margin-top: 10px;
@@ -575,6 +579,7 @@ body {
     .footer-head {
       .footer-head-links {
         ul {
+          padding: 0;
           display: flex;
           justify-content: end;
           align-items: center;
@@ -660,6 +665,7 @@ body {
 
       section {
         width: 33.33333%;
+        margin-right: 1rem;
 
         h5 {
           font-size: 14px;
@@ -667,6 +673,8 @@ body {
         }
 
         ul {
+          padding: 0;
+
           li {
             list-style: none;
 
@@ -688,6 +696,7 @@ body {
 
       section {
         width: 50%;
+        margin-right: 1rem;
 
         h5 {
           font-size: 14px;
@@ -696,18 +705,26 @@ body {
         }
 
         ul {
+          padding: 0;
+
           li {
-            .bi{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            .bi {
               font-size: 30px;
               margin-right: 0.5rem;
+              color: rgba(72, 72, 72, 0.6);
             }
-            list-style: none;
 
             a {
               text-decoration: none;
-              color: rgba(72, 72, 72, 0.6);
-              font-size: 12px;
-              font-weight: 700;
+              span {
+                color: rgba(72, 72, 72, 0.6);
+                font-size: 12px;
+                font-weight: 700;
+
+              }
             }
           }
         }
@@ -717,6 +734,7 @@ body {
       .mobile-apps {
         width: 190px;
         text-align: center;
+        margin-right: 1rem;
 
         .solution-center {
           a {
@@ -766,13 +784,15 @@ body {
 
           .whatsapp-ft {
             display: block;
-            .bi{
+
+            .bi {
               font-size: 30px;
               margin-right: 0.5rem;
               color: white;
               background-color: rgb(0, 221, 0);
               border-radius: 50%;
             }
+
             span {
               color: #484848;
               font-size: 14px;
