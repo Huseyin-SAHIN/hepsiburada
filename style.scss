@@ -727,28 +727,30 @@ body {
           }
 
           .solution-link {
-            color: rgba(72, 72, 72, 0.6);
-            font-size: 12px;
+            display: block;
             font-weight: 700;
+            text-align: center;
+            color: #919191;
+            border: 1px solid #919191;
+            font-size: 12px;
+            width: 100%;
+            padding: 6px 0;
+            border-radius: 5px;
+            margin: 1rem 0 0.5rem 0;
           }
 
           .solution-or {
             span {
               text-align: center;
+              color: #919191;
             }
           }
 
           .solution-call-text {
             text-align: center;
             font-size: 13px;
-            color: #919191;
-            ;
-            border: 1px solid #919191;
-            font-size: 12px;
-            font-weight: 700;
-            width: 100%;
-            padding: 6px 0;
-            border-radius: 5px;
+            color: #484848;
+            margin-top: 0.5rem;
           }
 
           .solution-center-phone {
@@ -760,7 +762,7 @@ body {
 
           .whatsapp-ft {
             span {
-              color: rgba(72, 72, 72, 0.6);
+              color: #484848;
               font-size: 14px;
             }
           }
