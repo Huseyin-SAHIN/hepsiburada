@@ -697,6 +697,10 @@ body {
 
         ul {
           li {
+            .bi{
+              font-size: 30px;
+              margin-right: 0.5rem;
+            }
             list-style: none;
 
             a {
@@ -761,6 +765,14 @@ body {
           }
 
           .whatsapp-ft {
+            display: block;
+            .bi{
+              font-size: 30px;
+              margin-right: 0.5rem;
+              color: white;
+              background-color: rgb(0, 221, 0);
+              border-radius: 50%;
+            }
             span {
               color: #484848;
               font-size: 14px;
