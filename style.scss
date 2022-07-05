@@ -706,7 +706,7 @@ body {
 
         ul {
           padding: 0;
-
+          margin-top: 1rem;
           li {
             list-style: none;
             display: flex;
@@ -719,12 +719,10 @@ body {
 
             a {
               text-decoration: none;
-              span {
-                color: rgba(72, 72, 72, 0.6);
-                font-size: 12px;
-                font-weight: 700;
-
-              }
+              color: rgba(72, 72, 72, 0.6);
+              font-size: 12px;
+              font-weight: 700;
+              margin-top: 0.5rem;
             }
           }
         }
@@ -737,6 +735,7 @@ body {
         margin-right: 1rem;
 
         .solution-center {
+          padding-bottom: 32px;
           a {
             text-decoration: none;
           }
@@ -796,6 +795,31 @@ body {
             span {
               color: #484848;
               font-size: 14px;
+            }
+          }
+        }
+        .app-list{
+          margin: 5px 0;
+          li{
+            a{
+              display: flex;
+              padding-right: 2rem;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              .bi{
+                margin: 0 10px;
+                font-size: 30px;
+              }
+              div{
+                margin: auto;
+                text-align: start;
+                font-size: 12px;
+                span{
+                  display: block;
+                  color: #ccc;
+                  font-weight: normal;
+                }
+              }
             }
           }
         }
