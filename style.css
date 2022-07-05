@@ -586,11 +586,11 @@ body {
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps {
   width: 190px;
-  text-align: center;
   margin-right: 1rem;
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center {
   padding-bottom: 32px;
+  text-align: center;
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center a {
   text-decoration: none;
@@ -644,7 +644,7 @@ body {
   font-size: 14px;
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps .app-list {
-  margin: 5px 0;
+  margin: 20px 0 30px 0;
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a {
   display: flex;
@@ -665,4 +665,17 @@ body {
   display: block;
   color: #ccc;
   font-weight: normal;
+}
+.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li {
+  display: flex;
+  align-items: center;
+}
+.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a {
+  margin: 0 5px 0 0;
+  color: rgba(72, 72, 72, 0.6);
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li span {
+  margin: 0 5px 0 0;
 }/*# sourceMappingURL=style.css.map */
