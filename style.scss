@@ -683,6 +683,10 @@ body {
               color: rgba(72, 72, 72, 0.6);
               font-size: 12px;
               font-weight: 700;
+
+              &:hover {
+                color: black;
+              }
             }
           }
         }
@@ -806,6 +810,10 @@ body {
           margin: 20px 0 30px 0;
 
           li {
+            &:hover div {
+              color: black;
+            }
+
             a {
               display: flex;
               padding-right: 2rem;
@@ -842,6 +850,10 @@ body {
               color: rgba(72, 72, 72, 0.6);
               font-size: 12px;
               font-weight: 700;
+
+              &:hover {
+                color: black;
+              }
             }
 
             span {

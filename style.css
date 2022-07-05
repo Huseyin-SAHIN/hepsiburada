@@ -549,6 +549,9 @@ body {
   font-size: 12px;
   font-weight: 700;
 }
+.footer-global .footer-middle .footer-middle-left section ul li a:hover {
+  color: black;
+}
 .footer-global .footer-middle .footer-middle-right {
   width: 39.20266%;
   display: flex;
@@ -646,6 +649,9 @@ body {
 .footer-global .footer-middle .footer-middle-right .mobile-apps .app-list {
   margin: 20px 0 30px 0;
 }
+.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li:hover div {
+  color: black;
+}
 .footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a {
   display: flex;
   padding-right: 2rem;
@@ -675,6 +681,9 @@ body {
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
+}
+.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a:hover {
+  color: black;
 }
 .footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li span {
   margin: 0 5px 0 0;
