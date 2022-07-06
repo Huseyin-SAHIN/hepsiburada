@@ -545,20 +545,24 @@ body {
             padding: 10px;
 
             p {
-              text-align: center;
               color: black;
               font-size: 12px;
               font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
                 Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
                 sans-serif !important;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
             }
 
             h6 {
-              color: black;
+              color: rgb(72, 72, 72);
               font-weight: bold;
-
+              line-height: 20px;
+              font-size: 18px;
               span {
-                font-size: 12px;
+                font-size: 14px;
               }
             }
           }
