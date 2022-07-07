@@ -405,7 +405,7 @@ body {
 
       .add-product {
         font-weight: bold;
-        color: #ff6000;
+        color: rgb(255, 96, 0);
         display: none;
         background-color: #ff620011;
         font-weight: bold;
@@ -414,11 +414,14 @@ body {
         padding: 0.8rem 2rem;
         margin-top: 2rem;
         border: 0;
+
+        &:hover {
+          background-color: rgba(255, 96, 0, 0.12);
+          
+        }
+
       }
 
-      .add-product:hover {
-        background-color: #ff620023;
-      }
 
       :hover .product-price {
         display: none;
@@ -550,10 +553,10 @@ body {
               font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
                 Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
                 sans-serif !important;
-                display: -webkit-box;
-                -webkit-box-orient: vertical;
-                -webkit-line-clamp: 2;
-                overflow: hidden;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
             }
 
             h6 {
@@ -561,6 +564,7 @@ body {
               font-weight: bold;
               line-height: 20px;
               font-size: 18px;
+
               span {
                 font-size: 14px;
               }
