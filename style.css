@@ -218,28 +218,28 @@ body {
   background-position: center;
   height: 540px;
 }
-.photos .deneme {
+.photos .photo {
   display: flex;
   justify-content: center;
   display: flex;
   justify-content: center;
 }
-.photos .deneme .photos-menu {
+.photos .photo .photos-menu {
   min-width: 1200px;
   display: flex;
   justify-content: center;
 }
-.photos .deneme .photos-menu ul {
+.photos .photo .photos-menu ul {
   padding: 0;
   display: flex;
 }
-.photos .deneme .photos-menu ul .active {
+.photos .photo .photos-menu ul .active {
   background-color: white;
 }
-.photos .deneme .photos-menu ul .active a {
+.photos .photo .photos-menu ul .active a {
   color: rgb(100, 100, 100);
 }
-.photos .deneme .photos-menu ul li {
+.photos .photo .photos-menu ul li {
   list-style: none;
   font-size: 14px;
   font-weight: bold;
@@ -248,7 +248,7 @@ body {
   border-radius: 20px;
   margin-top: 1rem;
 }
-.photos .deneme .photos-menu ul li a {
+.photos .photo .photos-menu ul li a {
   color: white;
   text-decoration: none;
 }
