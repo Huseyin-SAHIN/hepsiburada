@@ -651,14 +651,18 @@ body {
     .footer-seo-view {
       .footre-br {
         border: 1px solid $acilgri;
+        margin-bottom: 1rem;
       }
 
       .seo-portal {
-        padding: 1rem;
+        padding: 1rem 0;
 
         p {
           font-family: Helvetica;
           font-size: 12px;
+          span{
+            font-weight: bold;
+          }
         }
       }
     }
@@ -776,9 +780,18 @@ body {
           }
 
           .solution-or {
+            background-color: #e0e0e0;
+            height: 2px;
+            margin: 1.5rem 0 1rem 0;
             span {
               text-align: center;
               color: #919191;
+              display: block;
+              position: relative;
+              top: -12px;
+              padding: 0 1rem;
+              background-color: white;
+              display: inline;
             }
           }
 
