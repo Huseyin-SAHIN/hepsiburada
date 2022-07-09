@@ -889,13 +889,30 @@ body {
   }
 
   .footer-end-wrapper {
+    background-color: #f1f1f1;
     .footer-end {
       width: 1200px;
       margin: auto;
-      .left {
-        .top {}
 
-        .bottom {}
+      .left {
+        .top {
+          a {
+            img {
+              height: 20px;
+              margin-right: 0.5rem;
+            }
+          }
+        }
+
+        .bottom {
+          a {
+            img {
+              height: 25px;
+              margin-right: 0.5rem;
+
+            }
+          }
+        }
       }
 
       .right {

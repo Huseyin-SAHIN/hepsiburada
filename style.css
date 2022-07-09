@@ -708,7 +708,18 @@ body {
 .footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li span {
   margin: 0 5px 0 0;
 }
+.footer-global .footer-end-wrapper {
+  background-color: #f1f1f1;
+}
 .footer-global .footer-end-wrapper .footer-end {
   width: 1200px;
   margin: auto;
+}
+.footer-global .footer-end-wrapper .footer-end .left .top a img {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+.footer-global .footer-end-wrapper .footer-end .left .bottom a img {
+  height: 25px;
+  margin-right: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
