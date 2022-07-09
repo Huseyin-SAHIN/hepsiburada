@@ -531,89 +531,89 @@ body {
 .footer-global .footer-upper .footer-seo-view .seo-portal p span {
   font-weight: bold;
 }
-.footer-global .footer-middle {
+.footer-global .footer-upper .footer-middle {
   display: flex;
 }
-.footer-global .footer-middle .footer-middle-left {
+.footer-global .footer-upper .footer-middle .footer-middle-left {
   display: flex;
   width: 59.46844%;
 }
-.footer-global .footer-middle .footer-middle-left section {
+.footer-global .footer-upper .footer-middle .footer-middle-left section {
   width: 33.33333%;
   margin-right: 1rem;
 }
-.footer-global .footer-middle .footer-middle-left section h5 {
+.footer-global .footer-upper .footer-middle .footer-middle-left section h5 {
   font-size: 14px;
   line-height: 1.2;
 }
-.footer-global .footer-middle .footer-middle-left section ul {
+.footer-global .footer-upper .footer-middle .footer-middle-left section ul {
   padding: 0;
 }
-.footer-global .footer-middle .footer-middle-left section ul li {
+.footer-global .footer-upper .footer-middle .footer-middle-left section ul li {
   list-style: none;
 }
-.footer-global .footer-middle .footer-middle-left section ul li a {
+.footer-global .footer-upper .footer-middle .footer-middle-left section ul li a {
   text-decoration: none;
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
 }
-.footer-global .footer-middle .footer-middle-left section ul li a:hover {
+.footer-global .footer-upper .footer-middle .footer-middle-left section ul li a:hover {
   color: black;
 }
-.footer-global .footer-middle .footer-middle-right {
+.footer-global .footer-upper .footer-middle .footer-middle-right {
   width: 39.20266%;
   display: flex;
   justify-content: space-between;
 }
-.footer-global .footer-middle .footer-middle-right section {
+.footer-global .footer-upper .footer-middle .footer-middle-right section {
   width: 50%;
   margin-right: 1rem;
 }
-.footer-global .footer-middle .footer-middle-right section h5 {
+.footer-global .footer-upper .footer-middle .footer-middle-right section h5 {
   font-size: 14px;
   line-height: 1.2;
   font-weight: bold;
 }
-.footer-global .footer-middle .footer-middle-right section ul {
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul {
   padding: 0;
   margin-top: 1rem;
 }
-.footer-global .footer-middle .footer-middle-right section ul li {
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li {
   list-style: none;
   display: flex;
   align-items: center;
 }
-.footer-global .footer-middle .footer-middle-right section ul li .bi {
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li .bi {
   font-size: 30px;
   margin-right: 0.5rem;
   color: rgba(72, 72, 72, 0.6);
 }
-.footer-global .footer-middle .footer-middle-right section ul li a {
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li a {
   text-decoration: none;
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
   margin-top: 0.5rem;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps {
   width: 190px;
   margin-right: 1rem;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center {
   padding-bottom: 32px;
   text-align: center;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center a {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center a {
   text-decoration: none;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-title {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-title {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
   padding: 0 1rem;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-link {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-link {
   display: block;
   font-weight: 700;
   text-align: center;
@@ -625,12 +625,12 @@ body {
   border-radius: 5px;
   margin: 1rem 0 0.5rem 0;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or {
   background-color: #e0e0e0;
   height: 2px;
   margin: 1.5rem 0 1rem 0;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or span {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or span {
   text-align: center;
   color: #919191;
   display: block;
@@ -640,71 +640,75 @@ body {
   background-color: white;
   display: inline;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-call-text {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-call-text {
   text-align: center;
   font-size: 13px;
   color: #484848;
   margin-top: 0.5rem;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-center-phone {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-center-phone {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
   color: #484848;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft {
   display: block;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft .bi {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft .bi {
   font-size: 30px;
   margin-right: 0.5rem;
   color: white;
   background-color: rgb(0, 221, 0);
   border-radius: 50%;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft span {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .whatsapp-ft span {
   color: #484848;
   font-size: 14px;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list {
   margin: 20px 0 30px 0;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li:hover div {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list li:hover div {
   color: black;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list li a {
   display: flex;
   padding-right: 2rem;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a .bi {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list li a .bi {
   margin: 0 10px;
   font-size: 30px;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a div {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list li a div {
   margin: auto;
   text-align: start;
   font-size: 12px;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .app-list li a div span {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .app-list li a div span {
   display: block;
   color: #ccc;
   font-weight: normal;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li {
   display: flex;
   align-items: center;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a {
   margin: 0 5px 0 0;
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a:hover {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li a:hover {
   color: black;
 }
-.footer-global .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li span {
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .clothing-fashion li span {
   margin: 0 5px 0 0;
+}
+.footer-global .footer-end-wrapper .footer-end {
+  width: 1200px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
