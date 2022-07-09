@@ -890,16 +890,21 @@ body {
 
   .footer-end-wrapper {
     background-color: #f1f1f1;
+
     .footer-end {
+      display: flex;
       width: 1200px;
       margin: auto;
 
       .left {
+        margin-right: 5rem;
         .top {
-          a {
-            img {
-              height: 20px;
-              margin-right: 0.5rem;
+          div {
+            a {
+              img {
+                height: 20px;
+                margin-right: 0.5rem;
+              }
             }
           }
         }
@@ -916,7 +921,15 @@ body {
       }
 
       .right {
-        .top {}
+        .top {
+          div {
+
+            img {
+              height: 10px;
+            }
+
+          }
+        }
 
         .bottom {}
       }

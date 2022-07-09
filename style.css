@@ -712,14 +712,21 @@ body {
   background-color: #f1f1f1;
 }
 .footer-global .footer-end-wrapper .footer-end {
+  display: flex;
   width: 1200px;
   margin: auto;
 }
-.footer-global .footer-end-wrapper .footer-end .left .top a img {
+.footer-global .footer-end-wrapper .footer-end .left {
+  margin-right: 5rem;
+}
+.footer-global .footer-end-wrapper .footer-end .left .top div a img {
   height: 20px;
   margin-right: 0.5rem;
 }
 .footer-global .footer-end-wrapper .footer-end .left .bottom a img {
   height: 25px;
   margin-right: 0.5rem;
+}
+.footer-global .footer-end-wrapper .footer-end .right .top div img {
+  height: 10px;
 }/*# sourceMappingURL=style.css.map */
