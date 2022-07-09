@@ -729,4 +729,13 @@ body {
 }
 .footer-global .footer-end-wrapper .footer-end .right .top div img {
   height: 10px;
+}
+.footer-global .footer-end-wrapper .footer-end .right .bottom {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #333;
+}
+.footer-global .footer-end-wrapper .footer-end .right .bottom span {
+  color: #919191;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
