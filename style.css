@@ -545,6 +545,7 @@ body {
 .footer-global .footer-upper .footer-middle .footer-middle-left section h5 {
   font-size: 14px;
   line-height: 1.2;
+  font-weight: bold;
 }
 .footer-global .footer-upper .footer-middle .footer-middle-left section ul {
   padding: 0;
