@@ -585,6 +585,9 @@ body {
   display: flex;
   align-items: center;
 }
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li:hover a {
+  color: black;
+}
 .footer-global .footer-upper .footer-middle .footer-middle-right section ul li .bi {
   font-size: 30px;
   margin-right: 0.5rem;
@@ -625,6 +628,9 @@ body {
   padding: 6px 0;
   border-radius: 5px;
   margin: 1rem 0 0.5rem 0;
+}
+.footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-link:hover {
+  color: black;
 }
 .footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps .solution-center .solution-or {
   background-color: #e0e0e0;
