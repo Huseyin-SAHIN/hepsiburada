@@ -585,20 +585,20 @@ body {
   display: flex;
   align-items: center;
 }
-.footer-global .footer-upper .footer-middle .footer-middle-right section ul li:hover a {
-  color: black;
-}
-.footer-global .footer-upper .footer-middle .footer-middle-right section ul li .bi {
-  font-size: 30px;
-  margin-right: 0.5rem;
-  color: rgba(72, 72, 72, 0.6);
-}
 .footer-global .footer-upper .footer-middle .footer-middle-right section ul li a {
   text-decoration: none;
   color: rgba(72, 72, 72, 0.6);
   font-size: 12px;
   font-weight: 700;
   margin-top: 0.5rem;
+}
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li a:hover {
+  color: black;
+}
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li a .bi {
+  font-size: 30px;
+  margin-right: 0.5rem;
+  color: rgba(72, 72, 72, 0.6);
 }
 .footer-global .footer-upper .footer-middle .footer-middle-right .mobile-apps {
   width: 190px;
