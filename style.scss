@@ -578,12 +578,11 @@ body {
 
 .footer-global {
   padding-top: 5rem;
-  width: 1200px;
   margin: auto;
 
   .footer-upper {
-    width: 100%;
-
+    width: 1200px;
+    margin: auto;
     .footer-head {
       .footer-head-links {
         ul {
@@ -895,14 +894,14 @@ body {
       display: flex;
       width: 1200px;
       margin: auto;
-
       .left {
         margin-right: 5rem;
         .top {
+          margin: 2rem 0;
           div {
             a {
               img {
-                height: 20px;
+                height: 25px;
                 margin-right: 0.5rem;
               }
             }
@@ -910,9 +909,10 @@ body {
         }
 
         .bottom {
+          margin-bottom: 1rem;
           a {
             img {
-              height: 25px;
+              height: 32px;
               margin-right: 0.5rem;
 
             }
@@ -922,10 +922,11 @@ body {
 
       .right {
         .top {
+          margin-top: 2rem;
           div {
 
             img {
-              height: 10px;
+              height: 15px;
             }
 
           }
