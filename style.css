@@ -13,6 +13,8 @@ body {
   background-color: white;
   padding-right: 1rem;
   padding-left: 1rem;
+  text-decoration: none;
+  color: black;
 }
 .back-to-top button {
   font-weight: bold;
