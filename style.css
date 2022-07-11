@@ -3,6 +3,19 @@ body {
   overflow-x: hidden;
 }
 
+.back-to-top {
+  display: inline-block;
+  background-color: white;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  position: fixed;
+  right: 200px;
+  bottom: 50px;
+}
+
 #navbar {
   width: 1200px;
   margin: auto;
@@ -592,7 +605,7 @@ body {
   font-weight: 700;
   margin-top: 0.5rem;
 }
-.footer-global .footer-upper .footer-middle .footer-middle-right section ul li a:hover {
+.footer-global .footer-upper .footer-middle .footer-middle-right section ul li a:hover span {
   color: black;
 }
 .footer-global .footer-upper .footer-middle .footer-middle-right section ul li a .bi {
