@@ -302,6 +302,9 @@ body {
   padding-left: 30px;
 }
 .photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 1.5rem;
 }
@@ -315,6 +318,15 @@ body {
 .photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag ul li a div img {
   border: solid 2px white;
   border-radius: 10px;
+}
+.photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag .sf-herouselContent-mjMlkRnBbhlshIeXWKnB {
+  color: white;
+  margin-left: 1rem;
+  padding: 5px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 .product {
