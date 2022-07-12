@@ -301,6 +301,21 @@ body {
   padding-right: 30px;
   padding-left: 30px;
 }
+.photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag ul {
+  padding: 0;
+  margin: 0;
+}
+.photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag ul li {
+  list-style: none;
+}
+.photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag ul li a div img {
+  border: solid 2px white;
+  border-radius: 10px;
+}
 
 .product {
   width: 1200px;
