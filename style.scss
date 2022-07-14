@@ -474,6 +474,7 @@ body {
         font-size: 17px;
         border-radius: 10px;
         padding: 0.8rem 2rem;
+        margin: auto;
         margin-top: 2rem;
         border: 0;
 
@@ -485,11 +486,11 @@ body {
       }
 
 
-      :hover .product-price {
+      &:hover .product-price {
         display: none;
       }
 
-      :hover {
+      &:hover {
         .add-product {
           display: block;
         }
@@ -497,6 +498,10 @@ body {
 
       h5 {
         font-size: 12px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
       }
 
       img {
@@ -508,8 +513,7 @@ body {
         font-size: 22px;
         font-weight: bold;
         color: #ff6000;
-        padding: 0.8rem 2rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
 
         span {
           font-size: 14px;

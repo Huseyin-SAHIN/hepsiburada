@@ -387,20 +387,25 @@ body {
   font-size: 17px;
   border-radius: 10px;
   padding: 0.8rem 2rem;
+  margin: auto;
   margin-top: 2rem;
   border: 0;
 }
 .product .products .product-design .add-product:hover {
   background-color: rgba(255, 96, 0, 0.12);
 }
-.product .products .product-design :hover .product-price {
+.product .products .product-design:hover .product-price {
   display: none;
 }
-.product .products .product-design :hover .add-product {
+.product .products .product-design:hover .add-product {
   display: block;
 }
 .product .products .product-design h5 {
   font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .product .products .product-design img {
   width: 100%;
@@ -410,8 +415,7 @@ body {
   font-size: 22px;
   font-weight: bold;
   color: #ff6000;
-  padding: 0.8rem 2rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 .product .products .product-design .product-price span {
   font-size: 14px;
