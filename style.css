@@ -288,20 +288,40 @@ body {
   border-radius: 10px;
   height: 380px;
 }
-.photos .photos-info .special-for-you img {
-  border-radius: 10px;
+.photos .photos-info .special-for-you .share {
+  position: relative;
+  display: flex;
 }
-.photos .photos-info .special-for-you .special-for-you-info {
+.photos .photos-info .special-for-you .share .bi-share {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  top: 1rem;
+  right: 2rem;
+  font-size: 20px;
+  color: #646464;
+  border-radius: 50%;
+}
+.photos .photos-info .special-for-you .share .bi-share:hover {
+  background-color: #f1f1f1;
+}
+.photos .photos-info .special-for-you .share .special-for-you-info {
   margin: auto;
-  padding: 40px;
+  padding: 2rem;
 }
-.photos .photos-info .special-for-you .special-for-you-info button {
+.photos .photos-info .special-for-you .share .special-for-you-info button {
   margin-top: 4rem;
   color: white;
   background-color: #ff6000;
   border-radius: 20px;
   padding-right: 30px;
   padding-left: 30px;
+}
+.photos .photos-info .special-for-you img {
+  border-radius: 10px;
 }
 .photos .sf-herouselContent-gvS8wiWBGkIsTmpWSJag {
   display: flex;

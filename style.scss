@@ -353,23 +353,45 @@ body {
       border-radius: 10px;
       height: 380px;
 
+      .share {
+        position: relative;
+        display: flex;
+        .bi-share {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          top: 1rem;
+          right: 2rem;
+          font-size: 20px;
+          color: #646464;
+          border-radius: 50%;
+          &:hover{
+            background-color: #f1f1f1;
+          }
+        }
+
+        .special-for-you-info {
+          margin: auto;
+          padding: 2rem;
+
+          button {
+            margin-top: 4rem;
+            color: white;
+            background-color: #ff6000;
+            border-radius: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+          }
+        }
+      }
+
       img {
         border-radius: 10px;
       }
 
-      .special-for-you-info {
-        margin: auto;
-        padding: 40px;
-
-        button {
-          margin-top: 4rem;
-          color: white;
-          background-color: #ff6000;
-          border-radius: 20px;
-          padding-right: 30px;
-          padding-left: 30px;
-        }
-      }
     }
   }
 
