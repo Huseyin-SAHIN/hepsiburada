@@ -205,6 +205,27 @@ body {
           font-size: 20px;
           color: white;
           margin-right: 0.8rem;
+          position: relative;
+
+          span {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            top: 0;
+            left: 10px;
+            background-color: white;
+            color: $gri;
+            border: 3px solid $gri;
+            font-size: 15px;
+            font-weight: bold;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
         }
 
         h5 {
@@ -356,6 +377,7 @@ body {
       .share {
         position: relative;
         display: flex;
+
         .bi-share {
           position: absolute;
           display: flex;
@@ -368,7 +390,8 @@ body {
           font-size: 20px;
           color: #646464;
           border-radius: 50%;
-          &:hover{
+
+          &:hover {
             background-color: #f1f1f1;
           }
         }
@@ -377,7 +400,7 @@ body {
           margin: auto;
           padding: 2rem;
 
-          h2{
+          h2 {
             font-weight: bold;
             color: #484848;
           }
