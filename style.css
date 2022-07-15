@@ -312,6 +312,10 @@ body {
   margin: auto;
   padding: 2rem;
 }
+.photos .photos-info .special-for-you .share .special-for-you-info h2 {
+  font-weight: bold;
+  color: #484848;
+}
 .photos .photos-info .special-for-you .share .special-for-you-info button {
   margin-top: 4rem;
   color: white;
