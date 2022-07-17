@@ -63,8 +63,23 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    svg {
+    .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA {
       margin-right: 50px;
+
+      b{
+      display: block;
+      text-align: end;
+      font-size: 14px;
+      color: #484848;
+        a{
+          color: #ff6000;
+          text-decoration: none;
+          &:hover{
+            border-bottom: solid 1px #ff6000;
+          }
+        }
+      }
+
     }
 
     .input-group {

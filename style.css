@@ -50,8 +50,21 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#navbar .navbar-bottom svg {
+#navbar .navbar-bottom .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA {
   margin-right: 50px;
+}
+#navbar .navbar-bottom .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA b {
+  display: block;
+  text-align: end;
+  font-size: 14px;
+  color: #484848;
+}
+#navbar .navbar-bottom .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA b a {
+  color: #ff6000;
+  text-decoration: none;
+}
+#navbar .navbar-bottom .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA b a:hover {
+  border-bottom: solid 1px #ff6000;
 }
 #navbar .navbar-bottom .input-group {
   border: 2px solid #919191;
