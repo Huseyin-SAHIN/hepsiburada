@@ -66,15 +66,17 @@ body {
     .sf-PremiumInfoLogo-yrM1KhAAwK1_MUuRa3wA {
       margin-right: 50px;
 
-      b{
-      display: block;
-      text-align: end;
-      font-size: 14px;
-      color: #484848;
-        a{
+      b {
+        display: block;
+        text-align: end;
+        font-size: 14px;
+        color: #484848;
+
+        a {
           color: #ff6000;
           text-decoration: none;
-          &:hover{
+
+          &:hover {
             border-bottom: solid 1px #ff6000;
           }
         }
@@ -388,6 +390,7 @@ body {
       background-color: white;
       border-radius: 10px;
       height: 380px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
 
       .share {
         position: relative;

@@ -320,6 +320,7 @@ body {
   background-color: white;
   border-radius: 10px;
   height: 380px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
 }
 .photos .photos-info .special-for-you .share {
   position: relative;
