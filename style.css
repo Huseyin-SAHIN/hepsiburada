@@ -6,7 +6,7 @@ body {
 .back-to-top {
   display: inline-block;
   position: fixed;
-  right: 200px;
+  right: 10%;
   bottom: 50px;
   border: 1px solid #e0e0e0;
   border-radius: 50px;
